@@ -8,37 +8,37 @@ environment:
       UNIX_PATH: none
       PYTHON_CMD: python
 
-#    - TOX_ENV: win64_py27_64
-#      UNIX_PATH: none
-#      PYTHON_CMD: python
+    - TOX_ENV: win64_py27_64
+      UNIX_PATH: none
+      PYTHON_CMD: python
 
-#    - TOX_ENV: win64_py34_32
-#      UNIX_PATH: none
-#      PYTHON_CMD: python
+    - TOX_ENV: win64_py34_32
+      UNIX_PATH: none
+      PYTHON_CMD: python
 
-#    - TOX_ENV: win64_py34_64
-#      UNIX_PATH: none
-#      PYTHON_CMD: python
+    - TOX_ENV: win64_py34_64
+      UNIX_PATH: none
+      PYTHON_CMD: python
 
-#    - TOX_ENV: win64_py35_32
-#      UNIX_PATH: none
-#      PYTHON_CMD: python
+    - TOX_ENV: win64_py35_32
+      UNIX_PATH: none
+      PYTHON_CMD: python
 
-#    - TOX_ENV: win64_py35_64
-#      UNIX_PATH: none
-#      PYTHON_CMD: python
+    - TOX_ENV: win64_py35_64
+      UNIX_PATH: none
+      PYTHON_CMD: python
 
-#    - TOX_ENV: win64_py36_32
-#      UNIX_PATH: none
-#      PYTHON_CMD: python
+    - TOX_ENV: win64_py36_32
+      UNIX_PATH: none
+      PYTHON_CMD: python
 
-#    - TOX_ENV: win64_py36_64
-#      UNIX_PATH: none
-#      PYTHON_CMD: python
+    - TOX_ENV: win64_py36_64
+      UNIX_PATH: none
+      PYTHON_CMD: python
 
-#    - TOX_ENV: win64_py37_32
-#      UNIX_PATH: none
-#      PYTHON_CMD: python
+    - TOX_ENV: win64_py37_32
+      UNIX_PATH: none
+      PYTHON_CMD: python
 
 #    - TOX_ENV: win64_py37_64
 #      UNIX_PATH: none
@@ -68,7 +68,7 @@ environment:
 
 configuration:
 # These values will become the values of the PACKAGE_LEVEL env.var.
-#  - minimum
+  - minimum
   - latest
 
 install:
